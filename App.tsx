@@ -36,6 +36,7 @@ export default function App() {
     </View>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -48,6 +49,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 20,
   },
+
   card: {
     width: "80%",
     padding: 20,
