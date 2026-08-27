@@ -4,7 +4,7 @@
  */
 
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { Usuario } from "../types/usuario";
+import { Usuario } from "../interfaces/usuario";
 
 // Usuários iniciais do sistema
 const USUARIOS_INICIAIS: Usuario[] = [
