@@ -8,7 +8,7 @@ export interface Consulta {
   medicoId: number;
   medicoNome: string;
   especialidade: string;
-  usuarioId: number; // ID do usuário que agendou a consulta
+  usuarioId?: number; // ID do usuário que agendou a consulta
   data: string;
   horario: string;
   status: StatusConsulta;
