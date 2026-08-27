@@ -1,5 +1,11 @@
-export type Especialidade = {
-  id: number;
-  nome: string;
-  descricao?: string;
-};
+/**
+ * Especialidade médica (usada em médicos, consultas e selects)
+ */
+
+export type Especialidade =
+  | "Cardiologia"
+  | "Dermatologia"
+  | "Ortopedia"
+  | "Pediatria"
+  | "Psiquiatria"
+  | "Clínica Geral";
