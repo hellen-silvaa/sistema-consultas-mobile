@@ -3,6 +3,7 @@
  * Exibe informações completas de uma consulta específica
  */
 
+
 import React, { useState, useEffect } from "react";
 import {
   View,
